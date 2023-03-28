@@ -5,7 +5,7 @@ You can visit my website here: [todo-list-react](https://justynakow.github.io/to
 Simple to-do-list. This is a project from the youcode course.
 This is my first task list that was bootstrapped with Create React App.
 ## Preview
-![preview](Images\Preview.jpg)
+![preview](Images/Preview.jpg)
 ## Technologies
 - HTML
 - CSS
