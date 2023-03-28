@@ -3,10 +3,10 @@
 You can visit my website here: [todo-list-react](https://justynakow.github.io/todo-list-react/)
 ## Description
 Simple to-do-list. This is a project from the youcode course.
+This is my first task list that was bootstrapped with Create React App.
+## Preview
+![preview](Images\Preview.jpg)
 ## Technologies
-- React
-- Babel
-- Webpack
 - HTML
 - CSS
 - JavaScript
@@ -14,6 +14,11 @@ Simple to-do-list. This is a project from the youcode course.
 - ES6 + features
 - GRID
 - FLEX
+- Immutability
+- React
+- Babel
+- Webpack
+- Node.js
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
