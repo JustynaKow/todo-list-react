@@ -1,9 +1,12 @@
 # TO DO LIST
 ## Demo
-You can visit my website here: [to do list]()
+You can visit my website here: [todo-list-react](https://justynakow.github.io/todo-list-react/)
 ## Description
-Simple to-do-list. 
+Simple to-do-list. This is a project from the youcode course.
 ## Technologies
+- React
+- Babel
+- Webpack
 - HTML
 - CSS
 - JavaScript
