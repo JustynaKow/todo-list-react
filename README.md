@@ -19,6 +19,9 @@ This is my first task list that was bootstrapped with Create React App.
 - Babel
 - Webpack
 - Node.js
+- State Hook
+- Effect Hook
+- Local Storage
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
