@@ -1,34 +1,34 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.form`
+export const StyledForm = styled.form`
     display: grid;
     grid-template-columns: 1fr auto;
     grid-gap: 20px;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         grid-template-columns: 1fr;
     }
 `;
 
-export const Field = styled.input`
+export const Input = styled.input`
     padding: 10px;
-    border: 1px solid #eee;
+    border: 1px solid ${({ theme }) => theme.color.alto};
 `
 
 export const Button = styled.button`
-    background-color: #217b75;
-    color: #ffffff;
+    background: ${({ theme }) => theme.color.teal};
+    color: ${({ theme }) => theme.color.white};
     border: none;
     padding: 10px;
     transition: 0.5s linear;
     cursor: pointer;
 
     &:hover {
-        background-color: #4daca6;
+        filter: brightness(110%);
         transform: scale(1.1);
     }
 
     &:active {
-        background-color: #53d4cb;
+        filter: brightness(120%);
     }
 `;

@@ -8,27 +8,27 @@ export const Wrapper = styled.div`
 
 export const Button = styled.button`
     background-color: transparent;
-    color: #217b75;
+    color: ${({ theme }) => theme.color.teal};
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
     cursor: pointer;
 
-    @media (max-width: 767px) {
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
         flex-basis: 100%;
         margin: 10px;
     }
 
     &:hover {
-        color: #4daca6;
+        filter: brightness(110%);
     }
 
     &:active {
-        color: #53d4cb;
+        filter: brightness(120%);
     }
 
     &:disabled {
-        color: #ccc;
+        color: ${({ theme }) => theme.color.silver};
         cursor: not-allowed;
     }
 `;
