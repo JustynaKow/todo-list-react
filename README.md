@@ -23,6 +23,7 @@ This is my first task list that was bootstrapped with Create React App.
 - Effect Hook
 - Local Storage
 - Custom Hooks
+- Styled Components
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
