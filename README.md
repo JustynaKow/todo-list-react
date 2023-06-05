@@ -19,8 +19,9 @@ This is my first task list that was bootstrapped with Create React App.
 - Babel
 - Webpack
 - Node.js
-- State Hook
-- Effect Hook
+- useState
+- useEffect
+- useRef
 - Local Storage
 - Custom Hooks
 - Styled Components
