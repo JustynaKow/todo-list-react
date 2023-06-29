@@ -19,12 +19,12 @@ This is my first task list that was bootstrapped with Create React App.
 - Babel
 - Webpack
 - Node.js
-- useState
-- useEffect
-- useRef
 - Local Storage
+- Hooks
 - Custom Hooks
 - Styled Components
+- Redux Toolkit
+- React - Redux
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
