@@ -1,15 +1,15 @@
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
-import { useSelector, useDispatch } from "react-redux";
-import { List, Item, Content, Button } from "./styled";
+import { Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import { List, Item, Content, Button } from './styled';
 import {
   selectTaskByQuery,
   toggleTaskDone,
   removeTasks,
   selectHideDone,
-} from "../../tasksSlice";
-import searchQueryParamName from "../searchQueryParamName";
-import { toTask } from "../../../../route";
+} from '../../tasksSlice';
+import searchQueryParamName from '../searchQueryParamName';
+import { toTask } from '../../../../route';
 
 const TaskList = () => {
   const location = useLocation();
@@ -26,7 +26,7 @@ const TaskList = () => {
       {tasks.map((task) => (
         <Item key={task.id} hidden={task.done && hideDone}>
           <Button onClick={() => dispatch(toggleTaskDone(task.id))} toggleDone>
-            {task.done ? "✓" : ""}
+            {task.done ? '✓' : ''}
           </Button>
           <Content done={task.done}>
             <Link to={toTask({ id: task.id })}>{task.content}</Link>

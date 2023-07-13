@@ -1,7 +1,7 @@
-import Input from "../../Input";
-import { useLocation, useHistory } from "react-router-dom";
-import { Wrapper } from "./styled";
-import searchQueryParamName from "../searchQueryParamName";
+import Input from '../../Input';
+import { useLocation, useHistory } from 'react-router-dom';
+import { Wrapper } from './styled';
+import searchQueryParamName from '../searchQueryParamName';
 
 const Search = () => {
   const location = useLocation();
@@ -11,7 +11,7 @@ const Search = () => {
   const onInputChange = ({ target }) => {
     const searchParams = new URLSearchParams(location.search);
 
-    if (target.value.trim() === "") {
+    if (target.value.trim() === '') {
       searchParams.delete(searchQueryParamName);
     } else {
       searchParams.set(searchQueryParamName, target.value);
@@ -24,7 +24,7 @@ const Search = () => {
     <Wrapper>
       <Input
         placeholder="Filtruj zadania"
-        value={query || ""}
+        value={query || ''}
         onChange={onInputChange}
       />
     </Wrapper>

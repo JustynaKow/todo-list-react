@@ -1,12 +1,20 @@
 # TO DO LIST
+
 ## Demo
+
 You can visit my website here: [todo-list-react](https://justynakow.github.io/todo-list-react/)
+
 ## Description
+
 Simple to-do-list. This is a project from the youcode course.
 This is my first task list that was bootstrapped with Create React App.
+
 ## Preview
+
 ![preview](Preview.jpg)
+
 ## Technologies
+
 - HTML
 - CSS
 - JavaScript
@@ -25,6 +33,7 @@ This is my first task list that was bootstrapped with Create React App.
 - Styled Components
 - Redux Toolkit
 - React - Redux
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

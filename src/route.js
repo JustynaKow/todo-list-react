@@ -1,5 +1,5 @@
-export const toTasks = () => "/zdania";
+export const toTasks = () => '/zadania';
 
-export const toAuthor = () => "/autor";
+export const toAuthor = () => '/autor';
 
-export const toTask = ({ id } = { id: ":id" }) => `/zadania/${id}`;
+export const toTask = ({ id } = { id: ':id' }) => `/zadania/${id}`;
