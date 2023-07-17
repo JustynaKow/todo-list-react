@@ -1,7 +1,7 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from '@reduxjs/toolkit';
 
 const tasksSlice = createSlice({
-  name: "tasks",
+  name: 'tasks',
   initialState: {
     tasks: [],
     hideDone: false,
@@ -26,6 +26,10 @@ const tasksSlice = createSlice({
         task.done = true;
       }
     },
+    fetchExampleTasks: () => {},
+    setTasks: (state, { payload: tasks }) => {
+      state.tasks = tasks;
+    },
   },
 });
 
@@ -35,6 +39,8 @@ export const {
   toggleTaskDone,
   removeTasks,
   setAllDone,
+  fetchExampleTasks,
+  setTasks,
 } = tasksSlice.actions;
 
 export const selectTasksState = (state) => state.tasks;
@@ -51,12 +57,12 @@ export const getTaskById = (state, taskId) =>
 export const selectTaskByQuery = (state, query) => {
   const tasks = selectTasks(state);
 
-  if (!query || query.trim() === "") {
+  if (!query || query.trim() === '') {
     return tasks;
   }
 
   return tasks.filter(({ content }) =>
-    content.toUpperCase().includes(query.trim().toUpperCase())
+    content.toUpperCase().includes(query.trim().toUpperCase()),
   );
 };
 

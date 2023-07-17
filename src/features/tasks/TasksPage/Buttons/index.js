@@ -20,7 +20,7 @@ const Buttons = () => {
     <Wrapper>
       {!areTasksEmpty && (
         <>
-          <Button onClick={() => dispatch(fetchExampleTasks)}>
+          <Button onClick={() => dispatch(fetchExampleTasks())}>
             Pobierz Przykładowe zadania
           </Button>
           <Button onClick={() => dispatch(toggleHideDone())}>
