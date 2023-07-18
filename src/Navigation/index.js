@@ -1,20 +1,20 @@
-import { toAuthor, toTasks } from '../route';
-import { StyledNavLink } from './styled';
+import { toAuthor, toTasks } from '../routes';
+import { StyledNavLink, List, Item } from './styled';
 
 const Navigation = () => (
   <nav>
-    <ul>
-      <li>
+    <List>
+      <Item>
         <StyledNavLink activeClassName="active" to={toTasks()}>
           Zadania
         </StyledNavLink>
-      </li>
-      <li>
+      </Item>
+      <Item>
         <StyledNavLink activeClassName="active" to={toAuthor()}>
           O autorze
         </StyledNavLink>
-      </li>
-    </ul>
+      </Item>
+    </List>
   </nav>
 );
 
