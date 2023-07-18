@@ -9,11 +9,9 @@ const AuthorPage = () => (
       title="Justyna Kowalewska"
       body={
         <p>
-          <strong>👩 30-letnia mieszkanka Suwalszczyzny.</strong>
-          <br />
-          Cenię ciszę, spokój, naturę. Często pracuję z domu, który znajduje się
-          w środku lasu. Mam wspaniałą rodzinę.
-          <br />W wolnym czasie uwielbiam czytać. 📚📚📚
+          <strong> 👩 30-letnia mieszkanka Suwalszczyzny. </strong> Cenię ciszę,
+          spokój, naturę. Często pracuję z domu, który znajduje się w środku
+          lasu. Mam wspaniałą rodzinę. W wolnym czasie uwielbiam czytać. 📚📚📚
         </p>
       }
     />
