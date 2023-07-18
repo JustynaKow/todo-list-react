@@ -3,7 +3,7 @@ import TaskPage from './features/tasks/TaskPage';
 import AuthorPage from './features/author/AuthorPage';
 import TasksPage from './features/tasks/TasksPage';
 import Navigation from './Navigation';
-import { toAuthor, toTask, toTasks } from './route';
+import { toAuthor, toTask, toTasks } from './routes';
 
 const App = () => (
   <HashRouter>
