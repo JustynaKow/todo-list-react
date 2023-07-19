@@ -21,7 +21,7 @@ This is my first task list that was bootstrapped with Create React App.
 - Filter tasks
 - Show or hide completed tasks
 - Check the task details
-- Vistit Author page
+- Visit Author page
 
 ## Technologies
 
