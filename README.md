@@ -4,14 +4,24 @@
 
 You can visit my website here: [todo-list-react](https://justynakow.github.io/todo-list-react/)
 
+## Preview
+
+![preview](demo.gif)
+
 ## Description
 
 Simple to-do-list. This is a project from the youcode course.
 This is my first task list that was bootstrapped with Create React App.
 
-## Preview
+## Instruction
 
-![preview](Preview.jpg)
+- Add new task or download the example tasks
+- Mark tasks as done
+- Delete unnecessary tasks
+- Filter tasks
+- Show or hide completed tasks
+- Check the task details
+- Vistit Author page
 
 ## Technologies
 
@@ -33,6 +43,8 @@ This is my first task list that was bootstrapped with Create React App.
 - Styled Components
 - Redux Toolkit
 - React - Redux
+- React - Router
+- Redux - Saga
 
 # Getting Started with Create React App
 
